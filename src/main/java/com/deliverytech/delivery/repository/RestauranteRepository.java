@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.deliverytech.delivery.entity.RestauranteEntity;
 
 @Repository
-public interface RestaurantRepository extends JpaRepository<RestauranteEntity, Long>{
+public interface RestauranteRepository extends JpaRepository<RestauranteEntity, Long>{
     //BUSCA POR NOME CATEGORIA ATIVOS ORDENACAO
 
 }

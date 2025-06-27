@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.deliverytech.delivery.entity.PedidoEntity;
 
 @Repository
-public interface OrderRepository  extends JpaRepository<PedidoEntity, Long>{
+public interface PedidoRepository  extends JpaRepository<PedidoEntity, Long>{
 //Buscar pedidos por cliente, filtrar por status/data, relatórios
 
 

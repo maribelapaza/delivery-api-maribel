@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.deliverytech.delivery.entity.ProdutoEntity;
 
 @Repository
-public interface ProductRepository extends JpaRepository<ProdutoEntity, Long>{
+public interface ProdutoRepository extends JpaRepository<ProdutoEntity, Long>{
 
     //Buscar produtos por restaurante, por categoria e disponibilidade
 
